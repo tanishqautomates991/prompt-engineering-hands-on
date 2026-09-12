@@ -1,0 +1,219 @@
+TASK 1 — BLOG POST
+Technique: RGCCO Framework + Style Transfer
+
+Prompt:
+
+Role:
+You are an expert blog writer specializing in clear, engaging, and informative business content.
+
+Goal:
+Write a high-quality blog post about [Topic].
+
+Context:
+The target audience is B2B managers and business professionals. The article should provide practical and useful information relevant to this audience.
+
+Constraints:
+- Use clear and concise language.
+- Write primarily in active voice.
+- Avoid corporate jargon, unnecessary buzzwords, and generic corporate fluff.
+- Keep the content informative, practical, and engaging.
+- Do not make unsupported claims.
+- Do not copy phrases or sentences from the reference text.
+- Adapt the characteristics of the reference text rather than reproducing its wording.
+
+Style Transfer:
+Write in the style of the following reference text:
+[Reference Text]
+
+Analyze the reference text for characteristics such as tone, sentence structure, pacing, vocabulary, and level of formality. Apply those stylistic characteristics to the new blog post while creating completely original content about [Topic].
+
+Output Format:
+- Start with an H1 title.
+- Use H2 headings for major sections.
+- Use bullet points where they improve readability.
+- Include a clear introduction.
+- End with a concise conclusion.
+- Return only the finished blog post.
+
+--------------------------------------------------
+
+TASK 2 — LINKEDIN POST
+Technique: Role Prompting + Zero-Shot with Strict Constraints
+
+Prompt:
+
+Role:
+You are a Senior [Persona] with strong expertise in professional communication and LinkedIn content writing.
+
+Goal:
+Write a concise, engaging LinkedIn post about [Theme] that provides genuine value to a professional audience.
+
+Context:
+The post should communicate an informed professional perspective on [Theme] and encourage readers to think about or engage with the topic.
+
+Hook:
+Start with a strong, attention-grabbing hook that creates curiosity and makes the reader want to continue reading.
+
+Constraints:
+- Keep the post under 150 words.
+- Use clear and concise professional language.
+- Use short paragraphs for readability.
+- Maintain a credible and authentic professional tone.
+- Do not use emojis.
+- Do not use hashtags.
+- Do not use corporate buzzwords or generic motivational language.
+- Do not use clickbait.
+- Do not repeat the same idea unnecessarily.
+- Do not include unsupported statistics or claims.
+- Do not provide multiple versions.
+
+Output Format:
+- Line 1: Strong hook.
+- Body: 2–4 short paragraphs developing the idea.
+- Final line: A concise thought-provoking question or takeaway.
+- Return only the finished LinkedIn post.
+
+--------------------------------------------------
+
+TASK 3 — EMAIL CAMPAIGN
+Technique: Few-Shot Prompting
+
+Prompt:
+
+You are an experienced marketing copywriter specializing in persuasive email campaigns.
+
+Your task is to write a promotional sales email using the examples provided below as few-shot demonstrations.
+
+Examples:
+[Examples]
+
+Study the examples and identify their common patterns, including:
+- Subject-line approach
+- Opening and hook
+- Presentation of the offer
+- Benefit-focused messaging
+- Call-to-action structure
+- Overall tone and level of persuasion
+
+Then create an original promotional email for the following offer:
+
+Offer:
+[Offer]
+
+Requirements:
+- Follow the effective structural and persuasive patterns demonstrated by the examples.
+- Write original content; do not copy sentences or phrases from the examples.
+- Focus on customer benefits rather than only listing product features.
+- Make the offer clear and easy to understand.
+- Create a compelling but honest call to action.
+- Use concise, natural language.
+- Avoid excessive hype, fake urgency, and unsupported claims.
+- Keep the email between 150–200 words.
+
+Output Format:
+Subject: [Email subject line]
+
+[Email body]
+
+CTA: [Clear call to action]
+
+--------------------------------------------------
+
+TASK 4 — INSTAGRAM CAPTION
+Technique: Few-Shot Prompting
+
+Prompt:
+
+You are a social media copywriter.
+
+Image Description:
+[Image Description]
+
+Examples:
+[Examples]
+
+Create an original Instagram caption based on the image description. Use the examples to understand their tone, structure, and engagement style, but do not copy their wording.
+
+Requirements:
+
+* Start with an engaging hook.
+* Keep the caption natural and relatable.
+* Avoid unnecessary promotional language.
+* Do not invent details not present in the image description.
+
+Output Format:
+Caption:
+[Final Caption]
+
+--------------------------------------------------
+
+TASK 5 — YOUTUBE VIDEO SCRIPT
+Technique: Role Prompting + RGCCO
+
+Prompt:
+
+Role:
+You are a YouTube retention strategist and script writer.
+
+Goal:
+[Goal]
+
+Topic:
+[Topic]
+
+Context:
+Create a YouTube script designed to keep viewers engaged while providing useful information about the topic.
+
+Constraints:
+
+* Use simple and conversational language.
+* Avoid unnecessary jargon and filler.
+* Keep the script clear and engaging.
+* Include a strong hook in the first 15 seconds.
+
+Output Format:
+
+1. 0–15s: Hook
+2. Main Content: Deliver the value in clear steps or sections.
+3. CTA: End with a short and relevant call to action.
+
+Return only the final script.
+
+--------------------------------------------------
+
+TASK 6 — PRODUCT DESCRIPTION
+Technique: Feature-to-Benefit Mapping + Constraints
+
+Prompt:
+
+You are an e-commerce product copywriter.
+
+Product Specifications:
+[Specs]
+
+Examples:
+[Examples]
+
+Write a clear and persuasive product description by converting each technical feature into a direct user benefit.
+
+Requirements:
+
+* Map every important feature to its practical user benefit.
+* Use simple and easy-to-understand language.
+* Do not make claims that are not supported by the specifications.
+* Avoid unnecessary marketing buzzwords and exaggeration.
+* Keep the description concise.
+
+Output Format:
+
+Product Description:
+[Short product description]
+
+Features → Benefits:
+
+* Feature: [Technical Feature] → Benefit: [User Benefit]
+* Feature: [Technical Feature] → Benefit: [User Benefit]
+
+CTA:
+[Short call to action]
+
