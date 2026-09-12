@@ -52,7 +52,7 @@ A short Loom video walks through the assessment workflow:
 
 ## Repository Structure
 ```
-prompt-engineering-portfolio/
+prompt-engineering-hands-on/
 ├─ prompt_library.md
 ├─ generated_content.md
 ├─ improvement_report.md
@@ -66,8 +66,8 @@ prompt-engineering-portfolio/
 ## Getting Started
 ```bash
 # Clone the repository
-git clone https://github.com/tanishqautomates991/prompt-engineering-portfolio.git
-cd prompt-engineering-portfolio
+git clone https://github.com/tanishqautomates991/prompt-engineering-hands-on.git
+cd prompt-engineering-hands-on
 
 # Open the prompt library
 code prompt_library.md    # or any editor of your choice
